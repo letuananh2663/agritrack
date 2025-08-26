@@ -172,12 +172,12 @@ export default function TaskList() {
       ),
     },
     {
-      title: "Ngày tạo",
-      dataIndex: "createdAt",
-      key: "createdAt",
+      title: "Ngày bắt đầu",
+      dataIndex: "startDate",
+      key: "startDate",
       align: "center",
-      render: (createdAt) =>
-        createdAt ? new Date(createdAt).toLocaleDateString("vi-VN") : "—",
+      render: (startDate) =>
+        startDate ? new Date(startDate).toLocaleDateString("vi-VN") : "—",
     },
     {
       title: "Ngày kết thúc",
